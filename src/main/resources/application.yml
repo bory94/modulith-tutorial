@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:h2:~/test
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  sql:
+    init:
+      mode: always
+      schema-locations: classpath:h2/schema.sql
+logging:
+  level:
+    root: info
+    com.bory.modulithtutorial: debug
