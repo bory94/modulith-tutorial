@@ -20,7 +20,6 @@ dependencyManagement {
     imports {
         mavenBom("org.springframework.boot:spring-boot-dependencies:2.7.7")
         mavenBom("org.springframework.experimental:spring-modulith-bom:0.2.0")
-        mavenBom("org.jmolecules:jmolecules-bom:2022.2.2")
     }
 }
 
@@ -31,7 +30,6 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jdbc")
     runtimeOnly("com.h2database:h2")
 
-    implementation("org.jmolecules:jmolecules-events")
     implementation("jakarta.persistence:jakarta.persistence-api:3.1.0")
 
 
